@@ -4,7 +4,10 @@
   align-items: flex-end;
   height: 350px;
   padding: 20px;
-  background: linear-gradient(to bottom, #5a3e2b, #3e2a1e); /* Wooden shelf */
+  background-image: url('https://images.pexels.com/photos/172276/pexels-photo-172276.jpeg?cs=srgb&dl=pexels-fwstudio-33348-172276.jpg&fm=jpg'); /* Replace with your actual image */
+    background-size: cover; /* Make image fit the shelf */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent tiling */
   border-radius: 10px;
   overflow: hidden;
   width: 100%;
