@@ -3,10 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Manju Warrier - Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    
+<body class="bg-gray-900 text-white">
+
+    <!-- Hero Section -->
+    <section class="relative w-full h-screen flex items-center justify-center bg-cover bg-center" 
+        style="background-image: url('https://source.unsplash.com/1600x900/?actress');">
+        <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+        <div class="relative text-center z-10">
+            <h1 class="text-5xl md:text-6xl font-bold">Manju Warrier</h1>
+            <p class="mt-4 text-lg md:text-xl text-gray-300">
+                Actress | Dancer | Producer
+            </p>
+            <a href="#portfolio" class="mt-6 inline-block px-6 py-3 bg-pink-500 hover:bg-pink-600 text-white font-semibold text-lg rounded-full shadow-lg transition">
+                View Portfolio
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-20 px-6 md:px-20 bg-gray-800">
+        <div class="max-w-5xl mx-auto text-center">
+            <h2 class="text-4xl font-bold text-pink-500">About Me</h2>
+            <p class="mt-4 text-gray-300">
+                Manju Warrier is one of the most talented and celebrated actresses in Indian cinema. 
+                With an illustrious career in Malayalam films, she is known for her incredible acting skills, grace, and dedication to the craft.
+            </p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 px-6 md:px-20">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-4xl font-bold text-pink-500">Featured Works</h2>
+            <p class="mt-4 text-gray-300">Some of the most iconic movies featuring Manju Warrier.</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
+                <div class="bg-gray-800 p-4 rounded-lg shadow-lg">
+                    <img src="https://source.unsplash.com/400x300/?movie" alt="Movie" class="rounded-lg">
+                    <h3 class="mt-4 text-lg font-semibold">Movie 1</h3>
+                    <p class="text-gray-400 text-sm">A critically acclaimed film featuring a stellar performance.</p>
+                </div>
+                <div class="bg-gray-800 p-4 rounded-lg shadow-lg">
+                    <img src="https://source.unsplash.com/400x300/?cinema" alt="Movie" class="rounded-lg">
+                    <h3 class="mt-4 text-lg font-semibold">Movie 2</h3>
+                    <p class="text-gray-400 text-sm">A movie that won multiple awards and appreciation.</p>
+                </div>
+                <div class="bg-gray-800 p-4 rounded-lg shadow-lg">
+                    <img src="https://source.unsplash.com/400x300/?actress" alt="Movie" class="rounded-lg">
+                    <h3 class="mt-4 text-lg font-semibold">Movie 3</h3>
+                    <p class="text-gray-400 text-sm">One of the most loved performances in Indian cinema.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-20 bg-gray-800 text-center">
+        <h2 class="text-4xl font-bold text-pink-500">Get In Touch</h2>
+        <p class="mt-4 text-gray-300">For collaborations, inquiries, or fan messages, feel free to reach out.</p>
+        <a href="mailto:contact@manjuwarrier.com" 
+            class="mt-6 inline-block px-6 py-3 bg-pink-500 hover:bg-pink-600 text-white font-semibold text-lg rounded-full shadow-lg transition">
+            Contact Me
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-6 bg-gray-900 text-center text-gray-400">
+        &copy; 2025 Manju Warrier | Designed with ❤️ using Tailwind CSS
+    </footer>
+
 </body>
 </html>
